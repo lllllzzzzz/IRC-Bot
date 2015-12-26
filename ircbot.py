@@ -56,5 +56,5 @@ def main():
     if ircmsg.find(bytes("PING :", 'utf-8')) != -1:
       ping()
 
-while __name__ == "__main__":
+if __name__ == "__main__":
   main()
