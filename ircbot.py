@@ -1,9 +1,6 @@
 import socket 
 
-# No magic numbers!
 recvBytes = 2048
-
-# Hardcode values below
 server  = ""
 channel = ""
 botnick = ""
